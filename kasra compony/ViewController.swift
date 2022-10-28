@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import Foundation
 
 enum Error {
     
@@ -16,8 +16,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
    @IBOutlet weak var TxtcheckResulat: UITextField! // check regular expression
    
-    //salam halet khobe?
-    
     let viewNib = UIView() // for constraint
     let imgLogo = UIImageView() // for constraint logo from viewNib
     let lbltitle = UILabel() // for constraint title from viewNib
